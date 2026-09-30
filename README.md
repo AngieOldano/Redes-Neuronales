@@ -1,11 +1,11 @@
-# TP1: Perceptrón simple
-
-**Tecnicatura en Inteligencia Artificial**
+# Fundamentos de Redes Neuronales
 
  - Universidad Nacional de Hurlingham
  - Docente: Emiliano Churruca
 
-## Ejercicio 1
+## TP1: Perceptrón simple
+
+### Ejercicio 1
 
 Implemente el algoritmo de perceptrón simple con función de activación escalón y utilícelo para aprender los siguientes problemas:
 
@@ -14,7 +14,7 @@ Implemente el algoritmo de perceptrón simple con función de activación escal�
 
 ¿Qué puede decir acerca de los problemas que puede resolver el perceptrón simple escalón en relación a la resolución de los problemas que se le pidió que haga que el perceptrón aprenda?
 
-## Ejercicio 2
+### Ejercicio 2
 
 Implemente el algoritmo del perceptrón simple lineal y perceptrón simple no lineal y utilícelos para aprender el problema especificado en los archivos `TP1-ej2-Conjuntoentrenamiento.txt` y `TP1-ej2-Salida-deseada.txt`.
 
@@ -26,25 +26,21 @@ Implemente el algoritmo del perceptrón simple lineal y perceptrón simple no li
 
 ---
 
-# TP2: Perceptrón multicapa
-
-**Fundamentos de Redes Neuronales**
-Tecnicatura en Inteligencia Artificial — Universidad Nacional de Hurlingham
-Docente: Emiliano Churruca
+## TP2: Perceptrón multicapa
 
 Implemente un perceptrón multicapa y utilícelo para aprender los siguientes problemas:
 
-## Ejercicio 1
+### Ejercicio 1
 
 Función lógica **'O exclusivo'** con entradas `x = {{-1, 1}, {1, -1}, {-1, -1}, {1, 1}}` y salida esperada `y = {1, 1, -1, -1}`.
 
-## Ejercicio 2
+### Ejercicio 2
 
 Discriminar si un número es **par**, con entradas dadas por el conjunto de números decimales del 0 al 9 (usar archivo `TP2-ej3-mapa-de-pixeles-digitos-decimales.txt`) representados por imágenes de 5 x 7 píxeles.
 
 Entrene con un subconjunto de los dígitos y utilice el resto para testear a la red. ¿Qué podría decir acerca de la capacidad para generalizar de la red?
 
-## Ejercicio 3
+### Ejercicio 3
 
 Construya un perceptrón multicapa con la misma entrada usada en 2) pero con **10 unidades de salida**, de modo que cada salida represente a un dígito (por ejemplo, si se le presenta a la red la imagen del 7, el estado de la unidad de salida número 7 esté en 1 y las restantes en 0).
 

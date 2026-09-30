@@ -1,8 +1,9 @@
 # TP1: Perceptrón simple
 
 **Tecnicatura en Inteligencia Artificial**
-Universidad Nacional de Hurlingham
-Docente: Emiliano Churruca
+
+ - Universidad Nacional de Hurlingham
+ - Docente: Emiliano Churruca
 
 ## Ejercicio 1
 
@@ -22,15 +23,6 @@ Implemente el algoritmo del perceptrón simple lineal y perceptrón simple no li
 - ¿Cómo podría escoger el mejor conjunto de entrenamiento?
 - ¿Cómo podría evaluar la máxima capacidad de generalización del perceptrón para este conjunto de datos?
 
-## Presentación
-
-El trabajo deberá ser presentado por cada grupo el día **8 de abril**. Para su presentación usar PowerPoint o cualquier programa similar.
-
-En la presentación deberá figurar el título del trabajo, el nombre de la materia, el nombre de los integrantes del grupo y la fecha.
-
-La presentación podría estar dividida de acuerdo a los ítems solicitados indicando en cada uno qué es lo que se le pide. Para cada ítem, primero comentar lo que se hizo y las decisiones tomadas para llevarlo a cabo (si correspondiera). Luego exponer las dificultades que se presentaron (si correspondiera) y finalmente exponer los resultados.
-
-Al finalizar la presentación deberán exponerse las conclusiones del trabajo.
 
 ---
 
@@ -57,15 +49,3 @@ Entrene con un subconjunto de los dígitos y utilice el resto para testear a la 
 Construya un perceptrón multicapa con la misma entrada usada en 2) pero con **10 unidades de salida**, de modo que cada salida represente a un dígito (por ejemplo, si se le presenta a la red la imagen del 7, el estado de la unidad de salida número 7 esté en 1 y las restantes en 0).
 
 Una vez que la red haya aprendido, use patrones de entrada correspondientes a los dígitos de entrenamiento pero con sus píxeles afectados por ruido (por ejemplo, con probabilidad 0,02, intercambie el valor de los bits en la imagen del dígito) y evalúe los resultados.
-
-## Presentación
-
-El trabajo deberá ser presentado por cada grupo el día **?? de mayo**. Para su presentación usar PowerPoint o cualquier programa similar.
-
-En la presentación deberá figurar el título del trabajo, el nombre de la materia, el nombre de los integrantes del grupo y la fecha.
-
-La presentación podrá estar dividida de acuerdo a los ítems solicitados indicando en cada uno qué es lo que se le pide.
-
-Para cada ítem, primero comentar lo que se hizo y las decisiones tomadas para llevarlo a cabo (si correspondiera). Luego exponer las dificultades que se presentaron (si correspondiera) y finalmente exponer los resultados.
-
-Al finalizar la presentación deberán exponerse las conclusiones del trabajo.

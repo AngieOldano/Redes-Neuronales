@@ -69,3 +69,8 @@ Sobre el mismo conjunto de datos, implementar una variante que funcione como un 
 ### Ejercicio 3
 
 Plantear y resolver con un autocodificador un escenario donde se puedan **generar nuevas muestras** para un problema que ustedes elijan.
+
+### Extra
+
+Sobre el ejercicio 2 implemetnar un conjunto de prueba con nuevos caracteres con ruido y medir la accuracy del modelo ya entrenado y sin entrenar.
+

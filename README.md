@@ -45,3 +45,27 @@ Entrene con un subconjunto de los dígitos y utilice el resto para testear a la 
 Construya un perceptrón multicapa con la misma entrada usada en 2) pero con **10 unidades de salida**, de modo que cada salida represente a un dígito (por ejemplo, si se le presenta a la red la imagen del 7, el estado de la unidad de salida número 7 esté en 1 y las restantes en 0).
 
 Una vez que la red haya aprendido, use patrones de entrada correspondientes a los dígitos de entrenamiento pero con sus píxeles afectados por ruido (por ejemplo, con probabilidad 0,02, intercambie el valor de los bits en la imagen del dígito) y evalúe los resultados.
+
+---
+
+## TP3: Autocodificadores
+
+### Ejercicio 1
+
+Implementar un **autocodificador** para las imágenes binarias de la lista de caracteres del archivo `caracteres.h`.
+
+- Plantear una arquitectura de red para el codificador y decodificador que permita representar los datos de entrada en **dos dimensiones**.
+- Estudiar y describir las diferentes arquitecturas y parámetros que fueron aplicando para permitir que la red converja adecuadamente.
+- Realizar el gráfico en dos dimensiones que muestre los datos de entrada en el **espacio latente**.
+- Mostrar cómo la red puede **generar un nuevo carácter** que no pertenece al conjunto de entrenamiento.
+
+### Ejercicio 2
+
+Sobre el mismo conjunto de datos, implementar una variante que funcione como un **eliminador de ruido** (*denoising autoencoder*).
+
+- Plantear una arquitectura de red conveniente para esta tarea y explicar la elección.
+- Distorsionar las entradas en diferentes niveles y estudiar la capacidad del autocodificador de eliminar el ruido.
+
+### Ejercicio 3
+
+Plantear y resolver con un autocodificador un escenario donde se puedan **generar nuevas muestras** para un problema que ustedes elijan.
